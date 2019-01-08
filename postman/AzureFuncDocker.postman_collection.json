@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "c3f0cde2-7e80-45e5-be22-d92d2f026b69",
+		"name": "AzureFuncDocker",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test Azure Function",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"value1\": 16,\n\t\"value2\": 4\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8080/api/Adding",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Adding"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
