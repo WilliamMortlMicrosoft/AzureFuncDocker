@@ -1,0 +1,1 @@
+docker run -p 8080:80 -ti azurefuncdocker:0.0.1

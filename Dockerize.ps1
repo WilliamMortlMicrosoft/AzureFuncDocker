@@ -1,0 +1,1 @@
+docker build --network=host -t azurefuncdocker:0.0.1 -f build\Dockerfile .
