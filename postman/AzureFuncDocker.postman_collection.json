@@ -15,14 +15,20 @@
 						"name": "Content-Type",
 						"value": "application/json",
 						"type": "text"
+					},
+					{
+						"key": "x-functions-key",
+						"value": "hellossdfsfsdfsfsfdsdfsfdsdfsfsfsfsdfsfd",
+						"type": "text",
+						"disabled": true
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"value1\": 16,\n\t\"value2\": 4\n}"
+					"raw": "{\n\t\"values\": [\n\t\t20,\n\t\t20,\n\t\t20,\n\t\t20.1\n\t]\n}"
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8080/api/Adding",
+					"raw": "http://127.0.0.1:8080/api/Summation",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -33,7 +39,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"Adding"
+						"Summation"
 					]
 				}
 			},
